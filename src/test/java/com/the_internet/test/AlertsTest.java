@@ -2,7 +2,6 @@ package com.the_internet.test;
 
 import com.the_Internet.pages.HomePage;
 import com.the_Internet.pages.JavaScriptAlerts.AlertsPage;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

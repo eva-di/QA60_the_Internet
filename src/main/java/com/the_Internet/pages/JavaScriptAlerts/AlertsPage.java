@@ -34,17 +34,6 @@ public class AlertsPage extends BasePage {
         return this;
     }
 
-
-    @FindBy(id = "result")
-    static WebElement result;
-
-    public AlertsPage verifyResult(String text) {
-        Assert.assertTrue(result.getText().contains(text));
-        return this;
-    }
-
-
-
     @FindBy(xpath = "//button[text()='Click for JS Prompt']")
     WebElement promptButton;
     public AlertsPage sendMessageToAlert(String message) {
@@ -59,6 +48,14 @@ public class AlertsPage extends BasePage {
     WebElement promptResult;
     public AlertsPage verifyMessage(String text) {
         Assert.assertTrue(promptResult.getText().contains(text));
+        return this;
+    }
+
+    @FindBy(id = "result")
+    static WebElement result;
+
+    public AlertsPage verifyResult(String text) {
+        Assert.assertTrue(result.getText().contains(text));
         return this;
     }
 }

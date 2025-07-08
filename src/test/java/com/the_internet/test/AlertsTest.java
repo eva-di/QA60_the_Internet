@@ -24,7 +24,7 @@ public class AlertsTest extends TestBase {
 
     @Test
     public void clickForJSPrompt() {
-        new AlertsPage(driver).sendMessageToAlert("Hello, World!").verifyMessage("Hello, World!");
+        new AlertsPage(driver).sendMessageToAlert("Hello, World!").verifyResult("Hello, World!");
     }
 
 

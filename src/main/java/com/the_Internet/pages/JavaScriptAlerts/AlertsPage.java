@@ -44,12 +44,7 @@ public class AlertsPage extends BasePage {
         }
         return this;
     }
-    @FindBy(id = "result")
-    WebElement promptResult;
-    public AlertsPage verifyMessage(String text) {
-        Assert.assertTrue(promptResult.getText().contains(text));
-        return this;
-    }
+
 
     @FindBy(id = "result")
     static WebElement result;

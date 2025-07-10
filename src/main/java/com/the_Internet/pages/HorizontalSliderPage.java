@@ -22,11 +22,12 @@ public class HorizontalSliderPage extends BasePage {
     public HorizontalSliderPage changeSliderValue() {
         Actions actions = new Actions(driver);
         actions.clickAndHold(slider)
-                .moveByOffset(55, 0)
+                .sendKeys(range, "5")
                 .release()
                 .perform();
 
         Assert.assertTrue(range.getText().contains("5"));
+
         return this;
 
     }

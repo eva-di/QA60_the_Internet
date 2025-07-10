@@ -25,4 +25,12 @@ public class HomePage extends BasePage {
         return new AlertsPage(driver);
 
     }
+
+    @FindBy(xpath = "//a[text()='Horizontal Slider']")
+    WebElement slider;
+    public HorizontalSliderPage selectSlider() {
+        click(slider);
+        return new HorizontalSliderPage(driver);
+
+    }
 }

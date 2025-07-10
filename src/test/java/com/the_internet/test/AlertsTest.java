@@ -9,6 +9,7 @@ public class AlertsTest extends TestBase {
 
     @BeforeMethod
     public void precondition() {
+
         new HomePage(driver).selectAlerts();
     }
 

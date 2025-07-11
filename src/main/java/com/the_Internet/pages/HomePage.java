@@ -1,6 +1,7 @@
 package com.the_Internet.pages;
 
 import com.the_Internet.pages.JavaScriptAlerts.AlertsPage;
+import com.the_Internet.pages.frames.NestedFramesPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,6 +32,14 @@ public class HomePage extends BasePage {
     public HorizontalSliderPage selectSlider() {
         click(slider);
         return new HorizontalSliderPage(driver);
+
+    }
+
+    @FindBy(xpath = "//a[.='Frames']")
+    WebElement frames;
+    public NestedFramesPage selectFrames() {
+        click(frames);
+        return new NestedFramesPage(driver);
 
     }
 }

@@ -27,9 +27,22 @@ public class HorizontalSliderPage extends BasePage {
                 .perform();
 
         Assert.assertTrue(range.getText().contains("5"));
-
         return this;
 
+    }
+    public HorizontalSliderPage changeSliderValue2() {
+//        pause(1000);
+//        moveWithJS(0, 200);
+        Actions actions = new Actions(driver);
+        actions.dragAndDropBy(slider, 60, 0)
+                .perform();
+        return this;
+
+    }
+
+    public HorizontalSliderPage verifySliderValue(String number) {
+        Assert.assertEquals(range.getText(), "5");
+        return this;
     }
 
 

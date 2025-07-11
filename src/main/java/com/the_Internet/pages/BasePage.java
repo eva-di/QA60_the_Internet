@@ -28,4 +28,18 @@ public class BasePage {
         }
 
     }
+
+    public void pause(int milies) {
+        try {
+            Thread.sleep(milies);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    public void moveWithJS(int x, int y) {
+
+        js.executeScript("window.scrollBy(" + x + ", " + y + ")");
+    }
 }

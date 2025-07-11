@@ -17,5 +17,9 @@ public class SliderTest extends TestBase {
     public void moveSliderTest() {
         new HorizontalSliderPage(driver).changeSliderValue();
     }
+    @Test
+    public void moveSliderTest2() {
+        new HorizontalSliderPage(driver).changeSliderValue2().verifySliderValue("5");
+    }
 
 }

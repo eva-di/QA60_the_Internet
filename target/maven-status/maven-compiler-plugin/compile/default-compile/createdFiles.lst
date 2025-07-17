@@ -1,0 +1,13 @@
+com\the_internet\pages\HomePage.class
+com\the_internet\pages\DragAndDropPage.class
+com\the_internet\pages\HorizontalSliderPage.class
+com\the_internet\config\ApplicationManager.class
+com\the_internet\utils\MyListener.class
+com\the_internet\pages\frames\IFramesPage.class
+com\the_internet\pages\ContextMenuPage.class
+com\the_internet\pages\frames\NestedFramesPage.class
+com\the_internet\pages\HoversPage.class
+com\the_internet\pages\BasePage.class
+com\the_internet\pages\DropDownPage.class
+com\the_internet\pages\FileUploadPage.class
+com\the_internet\pages\JavaScriptAlerts\AlertsPage.class

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">drag</th></tr>
+<tr><td><a href="#t0">drag</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,293</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">drag</th></tr></tbody><tbody id="t0"><tr><th colspan="4">drag &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.the_internet.test.DragAndDropTests</td><td><a href="#m0">dragAndDropTest</a></td><td rowspan="1">1752687431118</td><td rowspan="1">5602</td></tr></tbody>
+</table>
+<h2>drag</h2><h3 id="m0">com.the_internet.test.DragAndDropTests#dragAndDropTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;B&apos;) to be present in element Decorated {[[FirefoxDriver: firefox on windows (322d3a75-2745-43d7-a8b2-c3f7e825aa8a)] -&gt; id: column-a]} (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ckllxWpI
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0, moz:accessibilityChecks: false, moz:buildID: 20250616215311, moz:debuggerAddress: 127.0.0.1:36050, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20660, moz:profile: C:\Users\evgen\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 322d3a75-2745-43d7-a8b2-c3f7e825aa8a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.the_internet.pages.BasePage.shouldHaveText(BasePage.java:52)
+	at com.the_internet.pages.DragAndDropPage.verifyColumnAHasTextB(DragAndDropPage.java:26)
+	at com.the_internet.test.DragAndDropTests.dragAndDropTest(DragAndDropTests.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

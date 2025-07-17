@@ -1,7 +1,7 @@
 package com.the_internet.test;
 
-import com.the_Internet.pages.HomePage;
-import com.the_Internet.pages.frames.NestedFramesPage;
+import com.the_internet.pages.HomePage;
+import com.the_internet.pages.frames.NestedFramesPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

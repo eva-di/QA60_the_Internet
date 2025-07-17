@@ -1,0 +1,11 @@
+com\the_internet\test\HoversTests.class
+com\the_internet\test\DropDownTests.class
+com\the_internet\test\DragAndDropTests.class
+com\the_internet\test\ContextMenuTests.class
+com\the_internet\test\FileUploadTest.class
+com\the_internet\test\TestBase.class
+com\the_internet\test\AlertsTest.class
+com\the_internet\test\NestedFramesTests.class
+com\the_internet\test\HomePageTest.class
+com\the_internet\test\IFrameTests.class
+com\the_internet\test\SliderTest.class

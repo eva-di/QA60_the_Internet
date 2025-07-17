@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [drag]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="drag(failed)" verbose="0">
+    <classes>
+      <class name="com.the_internet.test.DragAndDropTests">
+        <methods>
+          <include name="init"/>
+          <include name="precondition"/>
+          <include name="dragAndDropTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.the_internet.test.DragAndDropTests -->
+    </classes>
+  </test> <!-- drag(failed) -->
+</suite> <!-- Failed suite [drag] -->

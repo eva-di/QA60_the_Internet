@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="22.669" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="surefire.suiteXmlFiles" value="src/test/resources/testng.xml"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Tools\QA60_the_Internet\target\test-classes;C:\Tools\QA60_the_Internet\target\classes;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\evgen\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\evgen\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\evgen\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\evgen\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\evgen\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\evgen\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\evgen\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\evgen\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\evgen\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\evgen\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\evgen\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\evgen\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\evgen\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\evgen\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\evgen\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\evgen\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\evgen\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\evgen\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="application.properties" value="/application.properties"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\evgen\AppData\Local\Temp\surefire2082494974005391221\surefirebooter12663550022345784865.jar C:\Users\evgen\AppData\Local\Temp\surefire2082494974005391221 2025-07-16T19-36-54_799-jvmRun1 surefire4964441378805738383tmp surefire_07588816901312759075tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Tools\QA60_the_Internet\target\test-classes;C:\Tools\QA60_the_Internet\target\classes;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\evgen\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\evgen\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\evgen\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\evgen\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\evgen\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\evgen\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\evgen\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\evgen\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\evgen\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\evgen\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\evgen\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\evgen\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\evgen\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\evgen\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\evgen\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\evgen\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\evgen\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\evgen\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\evgen\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\evgen\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\evgen"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Tools\QA60_the_Internet"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\evgen\AppData\Local\Temp\surefire2082494974005391221\surefirebooter12663550022345784865.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="evgen"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\evgen\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\evgen\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Tools\QA60_the_Internet"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk-17\bin;C:\Tools\;C:\Tools\gradle-8.11\bin;C:\Tools\apache-maven-3.9.10\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\evgen\AppData\Local\Programs\Python\Launcher\;C:\Users\evgen\AppData\Local\Microsoft\WindowsApps;C:\Users\evgen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\evgen\AppData\Roaming\npm;C:\Users\evgen\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="dragAndDropTest" classname="com.the_internet.test.DragAndDropTests" time="5.635">
+    <failure message="Expected condition failed: waiting for text (&apos;B&apos;) to be present in element Decorated {[[FirefoxDriver: firefox on windows (322d3a75-2745-43d7-a8b2-c3f7e825aa8a)] -&gt; id: column-a]} (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ckllxWpI&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0, moz:accessibilityChecks: false, moz:buildID: 20250616215311, moz:debuggerAddress: 127.0.0.1:36050, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20660, moz:profile: C:\Users\evgen\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 322d3a75-2745-43d7-a8b2-c3f7e825aa8a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for text ('B') to be present in element Decorated {[[FirefoxDriver: firefox on windows (322d3a75-2745-43d7-a8b2-c3f7e825aa8a)] -> id: column-a]} (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ckllxWpI
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0, moz:accessibilityChecks: false, moz:buildID: 20250616215311, moz:debuggerAddress: 127.0.0.1:36050, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20660, moz:profile: C:\Users\evgen\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 322d3a75-2745-43d7-a8b2-c3f7e825aa8a
+	at com.the_internet.test.DragAndDropTests.dragAndDropTest(DragAndDropTests.java:17)
+</failure>
+    <system-out><![CDATA[19:36:56,124 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+19:36:56,124 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Tools/QA60_the_Internet/target/test-classes/logback.xml]
+19:36:56,330 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+19:36:56,330 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Using current interpretation time, i.e. now, as time reference.
+19:36:56,392 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Adding property to the context with key="bySecond" and value="16T193656" to the LOCAL scope
+19:36:56,392 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+19:36:56,433 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+19:36:56,470 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:36:56,541 |-ERROR in ch.qos.logback.core.pattern.parser.Compiler@1c72da34 - There is no conversion class registered for conversion word [kvp]
+19:36:56,541 |-ERROR in ch.qos.logback.core.pattern.parser.Compiler@1c72da34 - [kvp] is not a valid conversion word
+19:36:56,556 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [src/test_logs/log-16T193656.log]
+19:36:56,556 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+19:36:56,556 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+19:36:56,556 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:36:56,556 |-ERROR in ch.qos.logback.core.pattern.parser.Compiler@6b0c2d26 - There is no conversion class registered for conversion word [kvp]
+19:36:56,556 |-ERROR in ch.qos.logback.core.pattern.parser.Compiler@6b0c2d26 - [kvp] is not a valid conversion word
+19:36:56,556 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@16:21 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][maxHistory]]
+19:36:56,556 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:23 - no applicable action for [totalSizeCap], current ElementPath  is [[configuration][appender][totalSizeCap]]
+19:36:56,556 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+19:36:56,556 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+19:36:56,556 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+19:36:56,556 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+19:36:56,556 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3d3fcdb0 - Registering current configuration as safe fallback point
+
+19:37:10.468 [main] INFO  com.the_internet.test.TestBase -%PARSER_ERROR[kvp]- Start test: dragAndDropTest
+19:37:10.514 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='Drag and Drop']
+19:37:10.514 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:10.576 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='Drag and Drop']
+19:37:10.576 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:11.149 [Forwarding actions on session 322d3a75-2745-43d7-a8b2-c3f7e825aa8a to remote] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:11.149 [Forwarding actions on session 322d3a75-2745-43d7-a8b2-c3f7e825aa8a to remote] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:11.196 [Forwarding actions on session 322d3a75-2745-43d7-a8b2-c3f7e825aa8a to remote] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:11.196 [Forwarding actions on session 322d3a75-2745-43d7-a8b2-c3f7e825aa8a to remote] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:11.202 [Forwarding actions on session 322d3a75-2745-43d7-a8b2-c3f7e825aa8a to remote] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-b
+19:37:11.202 [Forwarding actions on session 322d3a75-2745-43d7-a8b2-c3f7e825aa8a to remote] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:11.239 [Forwarding actions on session 322d3a75-2745-43d7-a8b2-c3f7e825aa8a to remote] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-b
+19:37:11.239 [Forwarding actions on session 322d3a75-2745-43d7-a8b2-c3f7e825aa8a to remote] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:11.569 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:11.570 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:11.618 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:11.618 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:12.163 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:12.163 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:12.215 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:12.215 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:12.740 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:12.740 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:12.781 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:12.782 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:13.313 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:13.313 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:13.346 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:13.346 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:13.871 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:13.871 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:13.904 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:13.904 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:14.429 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:14.429 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:14.460 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:14.460 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:14.985 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:14.985 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:15.019 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:15.019 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:15.541 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:15.541 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:15.573 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:15.573 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:16.091 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:16.091 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:16.107 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:16.107 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:16.639 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:16.639 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:16.671 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:16.671 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:16.689 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: column-a
+19:37:16.689 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:37:16.720 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: column-a
+19:37:16.720 [main] INFO  com.the_internet.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+]]></system-out>
+  </testcase>
+</testsuite>
